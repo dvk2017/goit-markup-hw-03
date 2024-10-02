@@ -4,19 +4,47 @@ body {
   background-color: #fff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
+  color: currentColor;
 }
 
 button {
   cursor: pointer;
 }
 
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ============== HEDER ============ */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -71,12 +99,21 @@ header .logo span {
   background-color: #2e2f42;
 }
 
+.hero-wrap {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -87,6 +124,9 @@ header .logo span {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-btn:hover,
@@ -97,6 +137,8 @@ header .logo span {
 /* ========== BENEFITS ============= */
 
 .benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .benefits-subtitle {
@@ -117,6 +159,8 @@ header .logo span {
 
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
@@ -126,6 +170,7 @@ header .logo span {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .team-item {
@@ -154,6 +199,8 @@ header .logo span {
 /* ========== PORTFOLIO ============= */
 
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -163,6 +210,7 @@ header .logo span {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .portfolio-image {
@@ -186,6 +234,8 @@ header .logo span {
 
 .foot {
   background: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 footer .logo span {
@@ -197,4 +247,5 @@ footer .logo span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
