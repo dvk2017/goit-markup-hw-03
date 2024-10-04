@@ -172,7 +172,8 @@ header .logo span {
   margin-right: auto;
   border-radius: 4px;
   border: none;
-  padding: 16px 32px;
+  height: 56px;
+  min-width: 169px;
 }
 
 .hero-btn:hover,
@@ -287,10 +288,6 @@ header .logo span {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-}
-
-.portfolio-list-item {
-  width: calc((100% - 2 * 24px) / 3);
 }
 
 .portfolio-image {
